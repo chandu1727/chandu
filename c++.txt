@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a ;
+    int b ;
+    cout <<"enter your reg no: chandu.";
+    cin >> a;
+    cout <<"enter your frds no.";
+    cin >> b;
+    cout <<"chandu your reg no is :"<<a <<endl;
+    cout <<"your frds reg no is:"<<b;
+    return 0;
+}

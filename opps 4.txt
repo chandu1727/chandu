@@ -1,0 +1,41 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class teacher {
+    private :
+    string name;
+    string subject;
+    int year;
+    public :
+         void setdetail(string tname,string tsubject,int tyear)
+         {
+             name = tname;
+             subject = tsubject;
+             year = tyear;
+         }
+         // member function
+         void display()
+         {
+             cout<<"name : " <<name <<endl
+                 <<"subject : " <<subject <<endl
+                 <<"year : " <<year <<endl;
+         }
+};
+
+int main() {
+    // create 2 object
+    teacher t1 , t2 , t3;
+    // assign values to object
+    
+    t1.setdetail("manas","cse",3);
+    t2.setdetail("prasad","mec",4);
+    t3.setdetail("siva teja","aiml",7);
+    
+    t1.display();
+    cout<<endl;
+    t2.display();
+    cout<<endl;
+    t3.display();
+    
+    return 0;
+}

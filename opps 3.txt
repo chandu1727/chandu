@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+    class teacher {
+        public:
+        string name;
+        string subject;
+        char gender;
+        int  experience;
+        
+        void display() {
+          
+          cout<<" name of teacher"<<name<<endl;
+          cout<<"subjecte"<<subject<<endl;
+          cout<<"gender"<<gender<<endl;
+          cout<<"year of experience"<<experience<<endl;
+          
+    }
+    
+    
+    };
+       int main(){
+         teacher teacher1;
+         cout<<"enter the teacher name: "<<endl;
+         getline(cin,teacher1.name);
+         
+         cout<<"enter the subject: "<<endl;
+         getline(cin,teacher1.subject);
+         
+         cout<<"enter the gender: "<<endl;
+         cin >> teacher1.gender;
+         
+         cout<<"enter the experience: "<<endl;
+         cin >> teacher1.experience;
+         
+         teacher1.display();
+         
+         cin.ignore();
+         
+          teacher teacher2;
+         cout<<"enter the teacher name: "<<endl;
+         getline(cin,teacher2.name);
+         
+         cout<<"enter the subject: "<<endl;
+         getline(cin,teacher2.subject);
+         
+         cout<<"enter the gender: "<<endl;
+         cin >> teacher2.gender;
+         
+         cout<<"enter the experience: "<<endl;
+         cin >> teacher2.experience;
+         
+         teacher2.display();
+         

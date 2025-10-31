@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+    class car {
+        public:
+        string brand;
+        string model;
+        int price;
+        int year;
+        
+        void display() {
+          
+          cout<<"brand name"<<brand<<endl;
+          cout<<"model name"<<model<<endl;
+          cout<<"price"<<price<<endl;
+          cout<<"year of manufacturing"<<year<<endl;
+          
+    }
+    
+    
+    };
+       int main(){
+         car car1;
+         car1.brand = "BMW";
+         car1.model = "B-Class";
+         car1.price = 500000;
+         car1.year = 2024;
+         
+          car car2;
+         car2.brand = "suzuki";
+         car2.model = "n-Class";
+         car2.price = 50000;
+         car2.year = 2010;
+         
+         
+         
+         car1.display();
+         cout<<endl;
+         car2.display();
+
+    return 0;
+}

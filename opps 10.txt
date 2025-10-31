@@ -1,0 +1,32 @@
+ // Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class teacher
+{
+    public:
+    string name;
+    string dept;
+    int experience;
+    int salary;
+    
+    //constructor
+    teacher(string n, string d, int e, int s)
+    {
+        
+        
+        cout << " teacher name : " <<n<<endl;
+         cout << " department : " <<d<<endl;
+         cout << " experience : " <<e<<endl;
+         cout << " salary : " <<s<<endl;
+    }
+};
+
+int main()
+{
+    teacher t1("siva teja","cse",6,75000);
+    cout<<endl;
+    teacher t2("siva teja","cse",7,80000);
+    
+    
+}

@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+    class car {
+        public:
+        string brand;
+        string model;
+        int price;
+        int year;
+    };
+     int main() {
+         car carl; //creating an object of the class car.
+         carl.brand = "BMW";
+         carl.model = "B-Class";
+         carl.price = 500000;
+         carl.year = 2024;
+         
+         cout<<carl.brand <<endl; //direct way of printing.
+         cout<<carl.model <<endl;
+         cout<<carl.price <<endl;
+         cout<<carl.year <<endl;
+
+    return 0;
+}

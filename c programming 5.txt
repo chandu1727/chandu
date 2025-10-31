@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 5;
+    if (a > 15)
+    {
+        cout <<a<< " is greater than 15";
+    }
+    else {
+    cout << "a is less than 15";
+        
+    }
+    return 0;
+    }

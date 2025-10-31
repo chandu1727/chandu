@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+class movie
+{
+    public:
+    string tittle;
+    string director;
+    double duration;
+    double collection;
+    
+    movie( string t , string d , double u , double c)
+    {
+        cout<<"movie tittle : "<< t <<endl
+            <<"director : "<< d <<endl
+            <<"duration : "<< u <<" hours." <<endl
+            <<"collection : "<< c <<" crores." <<endl;
+    }
+};
+
+int main() {
+    movie m1("bahubali","raja mouli",2.5,700);
+    cout<<endl;
+    movie m2("bahubali-2","raja mouli",2.5,1800);
+    cout<<endl;
+    
+    return 0;
+}

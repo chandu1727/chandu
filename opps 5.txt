@@ -1,0 +1,28 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class car {
+    public:
+    string make;
+    string model;
+    int year;
+    
+    //default constroctor (no parameters)
+    car() {
+        make = "BENZ";
+        model = "Xo8";
+        year = 2;
+    }
+    void displayinfo() {
+        cout<<year<<" "<<make<<" "<<model<<endl;
+    }
+};
+int main() {
+    //creating an object using default constructor
+    car mycar;
+    
+    //displaying the information
+    mycar.displayinfo();
+    
+    return 0;
+}
